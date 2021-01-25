@@ -1,3 +1,6 @@
+//https://github.com/Samiour/assignment-3/blob/main/assignment-3.js
+
+
 function kilometerToMeter(kilometer) {
      
     if (kilometer <= 0) {
@@ -8,14 +11,11 @@ function kilometerToMeter(kilometer) {
     return convertToMeter;
    }
     
-  
-    
-
-    
 }
 
+    
 
-function budgetCalculator(watchQuantity, phoneQuantity, laptopQuantity) {
+    function budgetCalculator(watchQuantity, phoneQuantity, laptopQuantity) {
     var watchPrice = 50; 
     var phonePrice = 100; 
     var laptopPrice = 500; 
@@ -25,6 +25,8 @@ function budgetCalculator(watchQuantity, phoneQuantity, laptopQuantity) {
 
     return totalCost;
 }
+
+
 
 
 function hotelCost(day) {
@@ -58,6 +60,8 @@ function hotelCost(day) {
 
 
 
+
+
 var friends = ["Salam", "Kalam", "Malam", "Borkot", "Rofik"]; // storing the input string into friends variable
 function megaFriend(friends) {
 
@@ -65,7 +69,7 @@ function megaFriend(friends) {
     var largestName = friends[0]; 
 
     for (var i = 0; i < friends.length; i++) {
-        
+
         var elements = friends[i]; // capture the string elements
 
         // compare elements with the 1st index if they are larger or not
